@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './App.{js,jsx,ts,tsx}',
-    './<custom directory>/**/*.{js,jsx,ts,tsx}',
-  ],
+  content: ['./App.tsx', './src/**/*.tsx'],
   theme: {
     extend: {
       fontFamily: {
@@ -12,28 +9,26 @@ module.exports = {
       },
       colors: {
         gray: {
-          50: '#eaeaea',
-          100: '#bebebf',
-          200: '#9e9ea0',
-          300: '#727275',
-          400: '#56565a',
-          500: '#2c2c31',
-          600: '#28282d',
-          700: '#1f1f23',
+          100: '#F2F2F2',
+          200: '#D9D9D9',
+          300: '#808080',
+          400: '#333333',
+          500: '#262626',
+          600: '#1A1A1A',
+          700: '#0D0D0D',
           800: '#18181b',
           900: '#121215',
         },
         purple: {
-          50: '#f3eefc',
-          100: '#d8cbf7',
-          200: '#c6b2f3',
-          300: '#ab8eee',
-          400: '#9b79ea',
-          500: '#8257e5',
-          600: '#764fd0',
-          700: '#5c3ea3',
-          800: '#48307e',
-          900: '#372560',
+          50: '#8284FA',
+          100: '#5E60CE',
+        },
+        red: {
+          100: '#E25858',
+        },
+        blue: {
+          50: '#4EA8DE',
+          100: '#1E6F9F',
         },
       },
     },
