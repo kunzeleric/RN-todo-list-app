@@ -1,12 +1,12 @@
-import { ScrollView, View } from 'react-native'
+import { View } from 'react-native'
 import { Header } from '../components/Header'
-import { TaskInput } from '../components/TaskInput'
+import { Taskboard } from '../components/Taskboard'
 
 export const Home = () => {
   return (
-    <ScrollView>
+    <View>
       <Header />
-      <TaskInput />
-    </ScrollView>
+      <Taskboard />
+    </View>
   )
 }

@@ -6,7 +6,7 @@ import {
   Inter_700Bold,
 } from '@expo-google-fonts/inter'
 import { Home } from './src/pages/Home'
-import { ScrollView } from 'react-native'
+import { View } from 'react-native'
 
 export default function App() {
   const [hasLoadedFonts] = useFonts({
@@ -19,9 +19,9 @@ export default function App() {
   }
 
   return (
-    <ScrollView className="bg-gray-600">
+    <View className="flex-1 bg-gray-600">
       <Home />
       <StatusBar style="light" translucent />
-    </ScrollView>
+    </View>
   )
 }
