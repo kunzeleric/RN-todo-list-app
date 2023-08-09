@@ -8,7 +8,7 @@ I made this app to further develop my React Native and Typescript abilities, als
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/kunzeleric/RN-todo-list-app/assets/114115220/a12c458c-4007-4134-adf5-e485a849bcf2)
 
 
 ## Technologies
